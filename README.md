@@ -1,5 +1,5 @@
 # JavaScripting Aliens
-### Utilizing JacaScript and DOM Manipulation on HTML page
+### Utilizing JacaScript and DOM Manipulation
 
 ## Background
 
