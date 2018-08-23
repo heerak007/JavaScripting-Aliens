@@ -46,10 +46,8 @@
                         <input class="form-control" id="datetime" type="text" placeholder="1/11/2011">
                       </li>
                       <li class="filter list-group-item">
-                        <label for="text">Select Shape</label>
-                        <select id="shapedrop">
-                          <option value="0" selected>All Shapes</option>
-                        </select>
+                        <label for="date">Enter a City</label>
+                        <input class="form-control" id="city" type="text" placeholder="san diego">
                       </li>
                       <li class="filter list-group-item">
                         <label for="text">Select State</label>
@@ -57,10 +55,22 @@
                           <option value="0" selected>All States</option>
                         </select>
                       </li>
+                      <li class="filter list-group-item">
+                        <label for="text">Select Country</label>
+                        <select id="countrydrop">
+                          <option value="0" selected>All Countries</option>
+                        </select>
+                      </li>
+                      <li class="filter list-group-item">
+                        <label for="text">Select Shape</label>
+                        <select id="shapedrop">
+                          <option value="0" selected>All Shapes</option>
+                        </select>
+                      </li>
                     </ul>
                   </div>
                   <button id="filter-btn" type="submit" class="btn btn-default">Filter Table</button>
-                  <button id="reset-btn" type="reset" class="btn btn-default">Reset Table</button>
+                  <button id="reset-btn" type="reset" class="btn btn-default">Reset Selections</button>
                 </form>
 
               </div>
